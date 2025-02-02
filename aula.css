@@ -1,0 +1,29 @@
+* {
+  margin: auto;
+  box-sizing: border-box;
+}
+
+.fundo {
+  filter: blur(7px);
+  position: relative;
+  left: 400px;
+  bottom: -100px;
+  /* display: flex; */
+}
+
+.posicao {
+  position: absolute;
+  left: 430px;
+  bottom: 200px;
+  box-shadow: 2px 2px 2px 2px; /*direito, baixo, desfoque, cima*/
+  border-radius: 180px;
+  cursor: pointer;
+}
+
+.posicao:hover {
+  transition: all 1s;
+  /* transform: scale(1.2); */
+  /* transform: rotate(100turn);Roda a imagem 100 vezes */
+  /* transform: rotate(180deg);gira a imagem em 180 graus */
+  /* transform: rotateY(180deg); gira a imagem em 180 graus para os lados */
+}

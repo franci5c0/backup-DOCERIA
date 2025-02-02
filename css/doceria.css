@@ -1,0 +1,46 @@
+/* FONTES */
+@import url("https://fonts.googleapis.com/css2?family=Concert+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Pacifico&family=Playwrite+CU:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&family=Playwrite+NL:wght@100..400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gabriela&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kalam:wght@300;400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --cereja: #9b0d2f;
+}
+header.topo {
+  background-position: 0px 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px;
+  /* background-color: #8b0000; */
+  background-image: url(../img/banners/index-cherry-banner.webp);
+  background-position: 0px -200px;
+  h1.main-tittle {
+    font-size: 70px;
+    font-weight: 100;
+    font-family: "Lobster";
+    text-align: center;
+    color: white;
+    /* filter: contrast(200%); */
+    text-shadow: 2px 2px 2px;
+  }
+}
+
+hr.line {
+  border: solid 3px #1b0404;
+  max-width: 100vw;
+}
+
+footer.rodape {
+  background-image: url(../img/banners/index-cherry-banner.webp);
+  height: 100px;
+}
