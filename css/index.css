@@ -8,10 +8,9 @@ h1.main-tittle {
   font-family: "Lobster";
   text-align: center;
   color: black;
-  /* filter: contrast(200%); */
-  /* text-shadow: 2px 2px 2px black; */
   -webkit-text-stroke: 2px gold; /*deixa o texto com borda*/
 }
+
 
 div.welcome {
   text-align: center;
