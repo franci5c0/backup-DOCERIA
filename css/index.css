@@ -1,0 +1,67 @@
+body {
+  background-color: #4d121c;
+}
+
+h1.main-tittle {
+  font-size: 80px;
+  font-weight: 100;
+  font-family: "Lobster";
+  text-align: center;
+  color: black;
+  /* filter: contrast(200%); */
+  /* text-shadow: 2px 2px 2px black; */
+  -webkit-text-stroke: 2px gold; /*deixa o texto com borda*/
+}
+
+div.welcome {
+  text-align: center;
+  h2.welcome-tittle {
+    /* background-color: #4d121c; */
+    font-size: 35px;
+    color: gold;
+    font-family: "Oleo Script";
+  }
+}
+div.main-div-index {
+  /* background-image: url(../img/banners/); */
+  background-size: 100vw 120vh;
+  background-position: center -100px;
+  height: 450px;
+  background-repeat: no-repeat;
+  /* background-color: #4d121c; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  img {
+    width: 200px;
+    height: 182px;
+  }
+  div.menu-banner {
+    display: block;
+    text-align: center;
+    font-size: 25px;
+    font-family: "Oleo Script";
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    margin: 40px;
+    .img-banner {
+      border-radius: 20px;
+      border: outset 3px #b8860b;
+      box-shadow: 2px 2px 2px 2px black;
+    }
+  }
+  button.button-menu {
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: #b8860b;
+    box-shadow: 2px 1px 1px 1px black;
+    border: outset 2px black;
+  }
+
+  button.button-menu:hover {
+    transition: all;
+    transform: scale(1.1);
+  }
+}
